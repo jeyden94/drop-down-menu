@@ -5,6 +5,11 @@ module.exports = merge(common, {
   mode: "development",
   devtool: "inline-source-map",
   devServer: {
-    static: "./dist",
-  },
+    client: {
+      webSocketURL: 'auto://0.0.0.0:0/ws'
+    },
+    allowedHosts: 'all',
+    port: 8080,
+    hot: true
+  }
 });

@@ -1,3 +1,25 @@
 body {
   background-color: rebeccapurple;
 }
+
+.hamburger {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  display: grid;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger:hover {
+  background-color: rgb(186, 186, 186);
+}
+
+.horizontal-line {
+  background-color: black;
+  height: 3px;
+  width: 12px;
+  border-radius: 2px;
+}
