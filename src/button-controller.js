@@ -1,4 +1,4 @@
-const buttons = ["Update", "Delete", "Complete"]
+const buttons = ["Update", "Delete", "Complete", "Shimo"]
 
 export const buttonDivs = createButtonDivs(buttons)
 
