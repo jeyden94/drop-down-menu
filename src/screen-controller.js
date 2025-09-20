@@ -1,11 +1,11 @@
-const buttonParent = document.querySelector(".dropdown-buttons")
+// const buttonParent = document.querySelector(".dropdown-options")
 
-export function showDropdown(buttonDivs) {
+export function showDropdown(buttonDivs, dropdownOptionsParent) {
     for (let i in buttonDivs) {
-        buttonParent.appendChild(buttonDivs[i])
+        dropdownOptionsParent.appendChild(buttonDivs[i])
     }
 }
 
-export function hideDropdown() {
-    buttonParent.innerHTML = ''
+export function hideDropdown(dropdownOptionsParent) {
+    dropdownOptionsParent.innerHTML = ''
 }

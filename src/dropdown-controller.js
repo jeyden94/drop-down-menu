@@ -1,8 +1,3 @@
-// import { buttonDivs } from "./button-controller.js"
-// import { showDropdown, hideDropdown } from "./screen-controller.js"
-
-// export const hamburger = document.querySelector(".hamburger")
-
 export function createDropdown(dropdownParent, buttonArray) {
 
     const buttonDivs = createButtonDivs(buttonArray)
